@@ -3,8 +3,8 @@
 # 技术思路
 ## 图像获取模块
 采集装置包括一个PCB（可编程控制板）板，供电3.6V，其包括相机、LED灯、微控制器等。该装置在激活状态下自动抓取一个图像流，并传回给指定网关来进行后处理。LED为图像提供光线不足情况下额外的照明。采集装置安装在物料盒内部的活动门的对面，可以兼顾照明条件的满足和内部情况的采集。
-![图像采集装置](https://github.com/yancy-zh/intelligient-bin/blob/assets/imgs/Snipaste_2022-10-17_18-16-12.jpg?raw=true)
-![图像采集装置安装于盒子内部](https://github.com/yancy-zh/intelligient-bin/blob/assets/imgs/Snipaste_2022-10-17_18-37-52.PNG?raw=true)
+![图像采集装置](https://github.com/yancy-zh/intelligient-bin/blob/main/assets/imgs/Snipaste_2022-10-17_18-16-12.PNG?raw=true)
+![图像采集装置安装于盒子内部](https://github.com/yancy-zh/intelligient-bin/blob/main/assets/imgs/Snipaste_2022-10-17_18-37-52.PNG?raw=true)
 
 ### 模块分析
 
