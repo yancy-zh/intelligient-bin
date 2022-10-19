@@ -19,9 +19,9 @@
 - 直方图均衡化
 - 图像分割
 - 模式识别
-
 ### 基线处理结果
-
+标准的盒内场景识别结果见下图
+![A：原始图片，B：过滤后图片，C:基于局部特征的识别结果，D：Canny Edge识别结果](https://github.com/yancy-zh/intelligient-bin/blob/main/assets/imgs/Snipaste_2022-10-18_20-27-42.PNG?raw=true)
 标准的盒内场景识别结果见下图
 ![识别结果](https://github.com/yancy-zh/intelligient-bin/blob/main/assets/imgs/Snipaste_2022-10-18_20-27-42.PNG?raw=true "A：原始图片，B：过滤后图片，C:基于局部特征的识别结果，D：Canny Edge识别结果")
 
