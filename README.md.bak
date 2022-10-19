@@ -21,7 +21,7 @@
 - 模式识别
 
 ### 基线处理结果
-
+![A：原始图片，B：过滤后图片，C:基于局部特征的识别结果，D：Canny Edge识别结果](https://github.com/yancy-zh/intelligient-bin/blob/main/assets/imgs/Snipaste_2022-10-18_20-27-42.PNG?raw=true)
 标准的盒内场景识别结果见下图
 ![识别结果](https://github.com/yancy-zh/intelligient-bin/blob/main/assets/imgs/Snipaste_2022-10-18_20-27-42.PNG?raw=true "A：原始图片，B：过滤后图片，C:基于局部特征的识别结果，D：Canny Edge识别结果")
 
@@ -35,16 +35,9 @@
 - 受摄像头摆放位置的影响，所摄图像包含较多的黑色像素。
 - 物料材质的判断可能有助于改进图像处理算法的精度。
 
+### 模块分析
+
 ## 图像处理算法
-
-### 介绍
-
-该项目感兴趣区域的识别使用了图像处理算法。为应对生产线上复杂的光线背景，消除无关信息，本文使用箱底的交错线作为检测特征。像素到物料容量的映射函数是通过测量容器的几何尺寸，建模、多项式拟合而成的。
-
-### 图像预处理
-
-预处理使用了除噪滤波器，分两种场景 1-过度曝光 2-未饱和的图像来考虑。
-![曝光过度图像](https://github.com/yancy-zh/intelligient-bin/blob/main/assets/imgs/Snipaste_2022-10-18_20-27-42.PNG?raw=true "曝光过度图像")
 
 ## 识别物料余量
 
