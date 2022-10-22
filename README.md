@@ -44,7 +44,12 @@
 ### 图像预处理
 
 预处理使用了除噪滤波器，分两种场景 1-过度曝光 2-未饱和的图像来考虑。
-![曝光过度图像](https://github.com/yancy-zh/intelligient-bin/blob/main/assets/imgs/Snipaste_2022-10-18_20-27-42.PNG?raw=true "曝光过度图像")
+![曝光过度图像](https://github.com/yancy-zh/intelligient-bin/blob/main/assets/imgs/Snipaste_2022-10-18_20-27-44.PNG?raw=true "曝光过度图像")
+
+### 特征提取
+
+算法的核心是 BRISK，它能够通过映射算法来实现山脊线（盒子多个面的过渡）的识别，为提高鲁棒性，特征点的注册需要通过空间转换来实现。图像金字塔和下采样将被使用。参数设置请详见讲解视频。
+![BRISK角点探测](https://github.com/yancy-zh/intelligient-bin/blob/main/assets/imgs/Snipaste_2022-10-20_19-56-11.PNG?raw=true "BRISK角点探测")
 
 ## 识别物料余量
 
